@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<style type="text/css">
+		.customise-row{
+			border: 1px dashed red;
+
+		}
+		.customise-col{
+			border: 1px dotted red;
+
+		}
+	</style>
+</head>
+<body>
+	<div class="container" style="border:2px solid black;">
+
+	<!-- row1 -->
+		<div class="row customise-row">
+			<!-- better to use even numbers of grid -->
+			<div class="col-xs-2 col-sm-4 col-md-6 col-lg-4 customise-col"> 
+				row1 - col1
+			</div>
+
+			<div class="col customise-col">
+				row1 - col2
+			</div>
+       </div>
+
+           <!-- row2 -->
+		<div class="row customise-row">
+			<div class="col customise-col">
+				row2 - col1
+			</div>
+        </div>
+</div>
+
+</body>
+</html>
